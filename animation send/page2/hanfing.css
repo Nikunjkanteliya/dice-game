@@ -1,0 +1,164 @@
+
+body {
+    background-color: #fff5ec;
+}
+
+
+
+.hanging{
+    animation: hanging ease-in-out 1s infinite alternate;
+    transform-origin: center --20px;
+    float: left;
+ 
+}
+
+@keyframes hanging {
+    0%{ transform: rotate(0deg);}
+    100%{ transform: rotate(5deg);}
+}
+
+.hanging1{
+    animation: hanging1 ease-in-out 1s infinite alternate;
+    transform-origin: center --20px;
+    float: left;
+ 
+}
+
+@keyframes hanging1 {
+    0%{ transform: rotate(0deg);}
+    100%{ transform: rotate(-5deg);}
+}
+
+#div1 {
+margin-top: 200px;
+   margin-left: 150px;
+   position: relative;
+   top: -100px;
+}
+
+#pride {
+    background-color: #e6a300;
+    width: 170px;
+    height: 47px;
+    position: relative;
+    left: 70px;
+    top: 19px;
+   
+    border-radius: 6vh;
+}
+#pridep {
+    text-align: center;
+
+
+  font-family: 'Poppins', sans-serif;
+   font-size: 35px;
+}
+
+#pro{
+    background-color: #d69200;
+    width: 170px;
+    height: 47px;
+    position: relative;
+    left: 350px;
+    top: -40px;
+    border-radius: 6vh;
+}
+#prop{
+    text-align: center;
+  position: relative;
+     top: -400px;
+  font-family: 'Poppins', sans-serif;
+   font-size: 25px;
+}
+#proimg {
+    position: relative;
+    top: -100px;
+}
+#pre {
+    background-color: #d69200;
+    width: 170px;
+    height: 47px;
+    position: relative;
+    left: 650px;
+    top: -100px;
+    border-radius: 6vh;
+
+}
+
+#prep {
+    text-align: center;
+    position: relative;
+       top: -395px;
+    font-family: 'Poppins', sans-serif;
+     font-size: 30px;
+}
+
+#h3 {
+    position: relative;
+    top: -115px;
+    left: 50px;
+}
+ #mot {
+     background-color: #e6a300;
+    width: 170px;
+    height: 47px;
+    position: relative;
+    left: 920px;
+    top: -180px;
+    border-radius: 6vh;
+} 
+ #motp{
+    text-align: center;
+    position: relative;
+       top: -395px;
+    font-family: 'Poppins', sans-serif;
+     font-size: 25px;
+}
+#h4{
+    position: relative;
+    top: -195px;
+    left: 50px;
+} 
+
+
+
+
+
+.section
+{
+	
+	background-size:cover;
+	overflow:hidden;
+}
+ 
+
+
+
+.snow2
+{
+	background:url(1.webp);
+	background-repeat:repeat;
+	width:100%;
+	height:1000px;
+	position:absolute;
+	top:0;
+	left:0;
+	animation:animateSecond 10s infinite linear;
+
+} 
+
+
+
+@keyframes animateSecond
+{
+	0%
+	{
+		background-position: 0px -100px
+	}
+
+	100%
+	{
+		background-position: 0px 650px
+	}
+}
+
